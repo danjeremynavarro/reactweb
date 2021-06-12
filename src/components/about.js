@@ -14,8 +14,8 @@ export default class About extends React.Component{
                     to full stack development. I'm a naturally curious individual with a go-getter attitude. I believe in getting things done quick and the right way! You can read more about me by scrolling down.
                 </p>
                 <hr className="my-4"></hr>
-                <p>Want my resume? Click the button below!</p>
-                <a className="btn btn-primary" href="https://docs.google.com/document/d/1IEv8Pc1YaNH60JuZze82G2XT4jhYuZRNVPExESzR4R4/edit?usp=sharing">Click me!</a>
+                <a className="btn btn-primary m-2" href="https://www.linkedin.com/in/dan-jeremy-navarro-a075bb13a/">LinkedIn</a>
+                <a className="btn btn-primary m-2" href="https://github.com/danjeremynavarro">Github</a>
             </div>
         )
     }
