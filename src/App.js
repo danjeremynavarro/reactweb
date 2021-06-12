@@ -44,13 +44,15 @@ export default class App extends React.Component{
           <div>
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-2 py-2">
               <a className="navbar-brand" href="/">Dan</a>
+              <ul class="nav">
+              <li>
+                <a className="nav-link white" href="https://cloud.danjeremynavarro.com">Documentation</a>
+              </li>
+              <li>
+                <a className="nav-link white" href="https://proxmox.danjeremynavarro.com">Proxmox</a> 
+              </li>
+              </ul>
               <ul className="navbar-nav ml-sm-auto">
-                <li className="nav-item">
-                  <a className="nav-link active" href="https://cloud.danjeremynavarro.com">Documentation</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link active" href="https://proxmox.danjeremynavarro.com">Proxmox</a>
-                </li>
                 <li>
                 <button className="nav-item btn btn-sm btn-warning mr-0 disabled" id="light-mode" onClick={this.themeToggle}>Light</button>
                 <button className="nav-item btn btn-sm btn-primary mr-0" id="dark-mode" onClick={this.themeToggle}>Dark</button>
